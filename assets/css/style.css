@@ -1,0 +1,1233 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn{
+
+    border-radius: 10px;
+    display: inline-block;
+    margin: 5px;
+    padding: 8px;
+    color: #111;
+}
+.info{
+    background-color: #00FAF7;
+}
+.succes{
+    background-color: #7FFF21;
+}
+.warning{
+    background-color: #FAFA00;
+}
+.alert{
+    padding: 15px;
+    text-align: center;
+}
+.alert-eror{
+    background-color: #FABEC0;
+    color: #E43D40;
+    font-size: 25px;
+}
+.alert-sukses{
+    background-color: #A3EBB1;
+    color: #116530;
+    font-size: 25px;
+}
+section{
+    padding:2rem 5%
+}
+.empty{
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    
+}
+.empty p{
+    font-size: 40px;
+    padding: 20px 10px;
+    color: #333;
+    
+}
+.sbmt{
+    padding: 85px 470px;
+    position: absolute;
+    border: none;
+    background: none;
+}
+.pilih{
+    padding: 10px 50px;
+    border: none;
+    background-color: #FFF700;
+    font-size: 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button-psn {
+    padding: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 98%;
+    font-size: 20px;
+    border: none;
+    background-color: #ffe32a;
+    color: #777;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: .5s;
+}
+.button-psn:hover{
+    background-color: #d8bb00;
+    color: #fff;
+}
+.ful{
+    width: 100%;
+    background-color: #2874A6;
+    color: #fff;
+}
+.ful a{
+    color: #fff;
+}
+.judul-booking{
+    font-size:30px;
+    padding:15px 15px 15px 15px;
+    margin-bottom:50px;
+    display:inline-block;
+    background-color: #FFF700;
+    border-radius: 10px;
+}
+/* START BUAT AKUN */
+
+.page-register h1{
+    text-align: center;
+    font-size: 50px;
+    color: #2874A6;
+    padding-top: 7px;
+}
+.register{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+.register img{
+    width: 700px;
+}
+/* form{
+    margin-left: 50px;
+} */
+.register .form-group{
+    padding: 5px 15px;
+    font-size: 20px;
+    display: grid;
+}
+.register .form-group label{
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+.page-register .register form{
+    width: 40%;
+    margin: 0 100px;
+}
+.register .form-group .input-edit{
+    padding: 5px 10px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-size: 20px
+}
+.page-register .register form .btn{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F4D03F ;
+    font-size: 20px;
+    cursor: pointer;
+}
+.page-register .register form h2{
+    padding: 15px 15px 0 15px;
+    font-size: 30px;
+}
+.page-register .register form p{
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-size: 19px;
+    color: #555;
+}
+
+/* END BUAT AKUN */
+html{
+    background-color: 
+    rgb(245, 246, 250);
+    scroll-behavior: smooth;
+}
+.properti-header{
+    padding: 8px 107px;
+}
+.properti-header a{
+    color: #111;
+}
+
+.header{
+    background-color: #fff;
+}
+.header .navigation{
+    top:0; left:0; right: 0;
+    z-index: 1000;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 7%;
+}
+.header .navigation .nav-logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+.header .navigation .navbar ul{
+    list-style: none;
+}
+.header .navigation .navbar ul li{
+    float: left;
+    cursor: pointer;
+    padding: 16px 13px;
+    position: relative;
+}
+.header .navigation .navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #85C1E9;
+    display: block;
+    transition: 0.5s;
+}
+.header .navigation .navbar ul li:hover::after{
+    width: 70%;
+} 
+.header .navigation .navbar ul .rgst:hover::after{
+    width: 0;
+} 
+.header .navigation .navbar ul li a{
+    font-size: px;
+    display: block;
+    color: #333;
+}
+.header .navigation .navbar ul .rgst {
+    border: 1px solid #fff;
+    padding: 10px ;
+    margin: 5px 10px;
+    background-color: #007bff ;
+    border-radius: 35px;
+    transition: .2s;
+}
+.header .navigation .navbar ul .rgst a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.header .navigation .navbar ul .rgst:hover{
+    background-color: #61acfb ;  
+}
+.hotel-header .header-input{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+.hotel-header .header-input .header-loc{
+    border-right: 1px solid #ddd;
+    display: grid;
+    padding: 20px;
+}
+.hotel-header .header-input .header-loc label{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    color: #777;
+}
+.hotel-header .header-input .header-check{
+    display: flex;
+    padding: 20px 0;
+}
+.hotel-header .header-input .header-check .form-group{
+    padding: 0 20px;
+    display: grid;
+}
+.hotel-header .header-input .header-check .form-group label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+}
+.hotel-header .header-input .header-kamar{
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+.hotel-header .header-input .header-kamar label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+}
+.hotel-header .header-input .btn-search{
+    padding: 20px;
+    margin-left: 40px;   
+}
+.hotel-header .header-input .btn-search .edit-btn{
+    padding: 14px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #2874A6;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.header .header-input .btn-search input{
+    padding: 14px 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #2874A6;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.header .header-input{
+    display: flex;
+    background-color: #fff;
+    padding-left: 100px;
+    border-radius: 10px 10px 0 0;
+}
+.header .header-input .header-loc{
+    border-right: 1px solid #ddd;
+    display: grid;
+    padding: 20px;
+}
+.header .header-input .header-loc label{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    color: #777;
+}
+
+.header .header-input .header-check{
+    display: flex;
+    padding: 20px 0;
+}
+.mlm p{
+    color: #555;
+    font-size: 15px;
+}
+.mlm i{
+    padding: 0 8px;
+    font-size: 15px;
+    color: #555;
+}
+.header .header-input .header-check .form-group{
+    padding: 0 20px;
+    display: grid;
+}
+.header .header-input .header-check .form-group label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+}
+.header .header-input .header-kamar{
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+.header .header-input .header-kamar label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+}
+.header .header-input .btn-search{
+    padding: 20px;
+    margin-left: 120px;
+}
+.header .header-input .btn-search search-btn{
+    padding: 14px 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #2874A6;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.header .input-hotel{
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+.header .input-hotel a{
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.container-img{
+    background-color: #3333ff;
+    padding: 0 0 70px 0;
+}
+.content-slide{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.imgslide{
+    display:none;
+}
+
+.container-img .content-slide .imgslide img{
+    vertical-align: middle;
+    width: 70%;
+    margin: 0 18%;
+    height: 400px;
+}
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    margin: 0 100px;
+    padding: 16px;
+    font-size: 70px;
+    color: #fff;
+    transition: 0.6s ease;
+    border-radius: 0 1px 3px 0;
+    user-select: none;
+}
+.next{
+    right: 0;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -110px;
+    position: relative;
+    padding-bottom: 10rem;
+}
+.home .booking{
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.2) ;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+}
+.home .booking .box-header{
+    display: flex;
+    padding: 20px;
+}
+.home .booking .box-header span{
+    padding: 10px 0 10px 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #2E86C1;
+}
+.home .booking .box-header span i{
+    font-size: 40px;
+    color: #fff;
+    padding-right: 20px;
+}
+.home .booking .box-header h2{
+    font-size: 20px;
+    padding-top: 17px;
+}
+.home .booking .box-body{
+    border: 1px solid #ddd;
+    display: flex;
+}
+
+.home .booking .box-body .body-loc{
+    border-right: 1px solid #ddd;
+    display: grid;
+    padding: 20px 70px;
+}
+.home .booking .box-body .body-loc label{
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    color: #777;
+    padding-bottom: 14px;
+}
+.home .booking .box-body .body-check{
+    display: flex;
+    padding: 20px 50px;
+}
+.home .booking .box-body .body-check .form-group{
+    padding: 0 20px;
+    display: grid;
+}
+.home .booking .box-body .body-check .form-group label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+    padding-bottom: 14px;
+}
+.home .booking .box-body .body-kamar{
+    padding: 20px;
+    border-left: 2px solid #ddd;
+}
+.home .booking .box-body .body-kamar label{
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+    
+}
+.home .booking .box-body .body-kamar .form-kamar{
+    display: flex;
+    padding-top: 18px;
+}
+.home .booking .box-body .body-kamar .form-kamar span{
+    padding: 0 5px;
+    font-size: 20px;
+    padding-top: 2px;
+}
+.home .booking .box-footer{
+    padding: 20px;
+    text-align: right;
+}
+.home .booking .box-footer input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    color: #2874A6 ;
+    background-color: #FFF700;
+    transition: .3s;
+}
+.home .booking .box-footer input:hover{
+    background-color: #fff947;
+}
+/* foooorrrmmmm ccoooonttrrrolll */
+.search-hotel{
+    margin: 20px auto;
+    width: 94%;
+}
+.form-control{
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+.box-pilih{
+    display: grid;
+    margin-left: 20px;
+}
+.box-hotel{
+    display: flex;
+    height: 190px;    
+    background-color: #fff;
+    margin-bottom: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.box-hotel:hover{
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.2) ;
+}
+.box-hotel img{
+    width: 300px;
+    padding: 13px;
+    border-radius: 10%;
+}
+.data-hotel .container .box-hotel .nama-hotel h4{
+    font-size: 25px;
+    color: #333;
+    padding: 15px 20px;
+}
+.data-hotel .container .box-hotel .nama-hotel .stars .star {
+    font-size: 15px;
+    color: #FFF700 ;
+    padding: 0 20px;
+}
+.data-hotel .container .box-hotel .nama-hotel .stars{
+    display: flex;
+}
+.data-hotel .container .box-hotel .nama-hotel .stars .dot{
+    font-size: 5px;
+    color: #999;
+    padding-top: 7px;
+}
+.data-hotel .container .box-hotel .nama-hotel .stars span{
+    padding-left: 20px;
+}
+.data-hotel .container .box-hotel .nama-hotel .fac{
+    margin-top: 50px;
+    width: 460px;
+    padding-left: 20px;
+    color: #777;
+}
+.data-hotel .container .box-hotel .price{
+    text-align: right;
+    margin-top: 100px;
+    width: 200px;
+    padding-right: 15px;
+}
+.data-hotel .container .box-hotel .price .harga{
+    color: #f15c59;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 15px;
+    
+}
+.data-hotel .container .box-hotel .price .harga span{
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.data-hotel .container .box-hotel .price .info-harga{
+    font-size: 14px;
+}
+.data-hotel .container .recomend{
+    margin-right: 15px;
+    height: 330px;
+    background-color: #fff;
+}
+.data-hotel .container .recomend h2{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+.data-hotel .container .recomend .menu-urutkan p{
+    padding: 15px 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+.data-hotel .container .recomend .menu-urutkan p:hover{
+    background-color: #9fd1f3;
+}
+/* DETAIL HOTEL */
+.image{
+    display: grid;
+    margin-top: -45px;
+    grid-template-columns: 600px auto;
+
+}
+.image .image-utama{
+   height: 450px;
+}
+.image .image-utama img {
+    width: 100%;
+    padding: 1px;
+    height: 450px;
+}
+.image .image-kecil{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image .image-kecil img{
+    width: 374px;
+    padding: 2px;
+}
+.informasi{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.informasi .informasi-nama{
+    padding: 20px
+}
+.informasi .informasi-nama p{
+    color: #999;
+}
+.informasi .informasi-nama h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #333;
+}
+.informasi .informasi-nama .stars{
+    display: flex;
+    padding-top: 5px;
+}
+.informasi .informasi-nama .stars .star {
+    font-size: 15px;
+    color: #FFF700 ;
+}
+.informasi .informasi-nama .stars{
+    display: flex;
+}
+.informasi .informasi-nama .stars .dot{
+    font-size: 5px;
+    color: #999;
+    padding-top: 7px;
+}
+.informasi .informasi-nama .stars span{
+    padding-left: 20px;
+}
+.informasi .informasi-harga{
+    padding: 20px;
+    text-align: right;
+    
+}
+.informasi .informasi-harga .start-price{
+    font-weight: 600;
+    color: #333;
+}
+.informasi .informasi-harga .harga{
+    color: #f15c59;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.informasi .informasi-harga .harga span{
+    font-size: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+.informasi .informasi-harga .info-harga{
+    font-size: 13px;
+    color: #666;
+}
+.informasi .informasi-harga a{
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #2874A6;
+    display: block;
+}
+
+
+.fasilitas-hotel{
+    background-color: #fff;
+    display: grid;
+    margin-top: -50px;
+}
+.fasilitas-hotel h2{
+    padding: 20px;
+}
+.fasilitas-hotel .box-fasilitas{
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-items: center;
+}
+.fasilitas-hotel .box-fasilitas .jdl-fasilitas{
+    padding: 20px;
+    margin-right: 100px;
+}
+.fasilitas-hotel .box-fasilitas .isi-fasilitas{
+    border-top: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
+    padding: 20px;  
+    text-align: left;
+    margin: 0 20px;
+}
+
+.gmaps{
+    display: flex;
+    margin-top: -45px;
+    background-color: #fff;
+ }
+.gmaps .addres{
+    width: 700px;
+    height: 150px;
+    margin-top: 10px;
+}
+.gmaps .addres h2{
+    padding:  25px 25px 10px 25px;
+    color: #333;
+}
+.gmaps .addres p{
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #333;
+}
+.gmaps .maps{
+    width: 100%;
+    margin: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.room{
+    margin-top: -40px;
+}
+.kamar{
+    background-color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+}
+.kamar img{
+    width: 330px;
+    padding: 10px;
+}
+.kamar .info-kamar{
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+    width: 100%;
+}
+.kamar .info-kamar .tipe-kamar{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.kamar .info-kamar .tipe-kamar h2{
+    font-size: 30px;
+    color: #333;
+}
+.kamar .info-kamar .tipe-kamar p{
+    padding: 10px;
+    font-size: 17px;
+    color: #333;
+}
+.kamar .info-kamar .fasilitas{
+    padding: 10px 30px;
+    line-height: 40px;
+}
+.kamar .price-kamar{
+    width: 30%;
+    text-align: right;
+
+}
+.kamar .price-kamar a{
+    padding: 20px;
+    color: #2874A6;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+.kamar .price-kamar .harga{
+    font-size: 30px;
+    color: #f15c59;
+    border-bottom: 1px solid #f15c59;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 15px 0 0;
+}
+.kamar .price-kamar .info-harga{
+    font-size: 15px;
+    color: #666;
+    padding: 10px 15px;
+}
+.kamar .price-kamar .btn{
+    padding: 8px 50px;
+    background-color: #ffe32a;
+    margin: 20px;
+    border-radius: 50px;
+}
+.header .navigation .langkah p span{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #777;
+}
+.header .navigation .langkah p .active{
+    color: #222;
+}
+
+/* DETAIL PEMESANAN */
+.pesan{
+    display: grid;
+    grid-template-columns: auto 450px;
+}
+.pesan .pesanan-hotel{
+    margin-right: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.pesan .pesanan-hotel h2{
+    font-size: 25px;
+    padding: 20px;
+}
+.pesan .pesanan-hotel p{
+    padding: 10px 20px;
+}
+.pesan .pesanan-hotel .form-group{
+    padding: 10px 20px;
+
+}
+.pesan .pesanan-hotel .form-group label{
+    font-size: 20px;
+    width: 500px;
+}
+.pesan .pesanan-hotel .form-group .chekbox{
+    margin: 20px 10px;
+    width: 20px;
+    height: 20px;
+}
+.pesan .pesanan-hotel .form-group .check-time{
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.pesan .pesanan-hotel .form-group textarea{
+    border: 1px solid #ddd;
+    font-size: 20px;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+
+}
+.pesan .pesanan-hotel .form-group .input-control-nama{
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin-right: 18px;
+}
+.pesan .pesanan-hotel .form-group .input-control{
+    padding: 5px;
+    width: 550px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+}
+.pesan .detail-pemesanan{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 380px;
+}
+.pesan .detail-pemesanan h2{
+    font-size: 25px;
+    padding: 20px;
+}
+.pesan .detail-pemesanan .pemesanan-hotel{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 20px;
+    display: flex;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-foto img{
+    width: 100px;
+    margin-top: 11px;
+    margin-right: 15px;    
+    border-radius: 10px;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-txt{
+    line-height: 30px;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-txt h4{
+    font-size: 20px;
+    color: #666;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-txt .nm{
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-txt .info-pemesanan{
+    display: flex;
+    color: #666;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-txt .info-pemesanan p{
+    padding: 0 5px;
+    font-size: 15px;
+}
+.pesan .detail-pemesanan .pemesanan-hotel .pemesanan-txt .info-pemesanan p i{
+    font-size: 5px;
+}
+.pesan .detail-pemesanan .check-bok{
+    margin: 40px 20px 20px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.pesan .detail-pemesanan .check-bok .check{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.pesan .detail-pemesanan .check-bok .check p{
+    font-weight: 700;
+    color: #555;
+}
+.pesan .detail-pemesanan  .total-pemesanan{
+    margin: 0 20px 30px 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.pesan .detail-pemesanan  .total-pemesanan p{
+    font-size: 27px;
+    font-weight: 550;
+    color: #555;
+}
+
+.pesan .detail-pemesanan  .total-pemesanan h3{
+    color: #095080;
+}
+
+.pay{
+    background-color: rgb(245, 246, 250);;
+}
+.bayar{
+    justify-content: space-between;
+    display: flex;
+}
+.bayar .box{
+    border: 1px solid #ddd;
+    display: grid;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.bayar .box img{
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 10px;
+
+}
+.bayar .box .garis-no{
+    margin-bottom: 20px;
+}
+.bayar .box .garis-no tbody tr th{
+    padding: 0 10px;
+}
+.detail-bayar{
+    width: 50%;
+}
+
+.e-tiket{
+    border: 1px solid #ddd;
+    width: 70%;
+    margin: 0 auto;
+}
+.e-tiket .tiket{
+    padding: 15px;
+}
+.e-tiket .tiket .header-tiket{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+}
+.e-tiket .tiket .header-tiket h1{
+    font-weight: bolder;
+    color: #2874A6;
+}
+.e-tiket .tiket .header-tiket p{
+    font-size: 25px;
+    color: #2874A6;
+    font-weight: bold;
+}
+.e-tiket .tiket .header-tiket h2{
+    color: #2874A6;
+
+}
+.e-tiket .tiket .header-tiket h2 .order{
+    color: #FFF700;
+    background-color: #2E86C1;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.e-tiket .tiket .body-tiket{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.e-tiket .tiket .body-tiket .info-tiket{
+    margin-right: 10px;
+}
+.e-tiket .tiket .body-tiket .info-tiket h3{
+font-size: 30px;
+}
+.e-tiket .tiket .body-tiket .info-tiket .txt-info{
+    font-size: 20px;
+}
+.e-tiket .tiket .body-tiket .info-tiket .txt-info i{
+    padding-right: 10px;
+    color: #2874A6;
+}
+.e-tiket .tiket .body-tiket .info-tiket .check{
+    display: flex;
+}
+.e-tiket .tiket .body-tiket .info-tiket .check .jdl{
+    color: #888;
+    font-size: 18px;
+}
+.e-tiket .tiket .body-tiket .info-tiket .check .in{
+    margin-right: 70px;
+}
+.e-tiket .tiket .body-tiket .info-tiket .check p{
+    font-size: 18px;
+    font-weight: 700;
+}
+.e-tiket .tiket .body-tiket .maaps{
+    text-align: center;
+}
+.e-tiket .tiket .body-tiket .maaps iframe{
+    border-radius: 10px;
+    box-shadow:0 .5rem 1.5rem rgba(0,0,0,.2) ;
+}
+.e-tiket .tiket .detail-pesanan{
+    border: 1px solid #2E86C1;
+    border-radius: 10px ;
+}
+.e-tiket .tiket .detail-pesanan .header-pesanan{
+    background-color: #2E86C1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.e-tiket .tiket .detail-pesanan .body-pesanan table tr td{
+    padding-right: 60px;
+    padding-bottom: 13px;
+    font-size: 19px;
+    color: #777;
+    font-weight: bold;
+}
+.e-tiket .tiket .detail-pesanan .body-pesanan table tr .bold{
+    color: #111;
+    font-weight: bold;
+}
+.e-tiket .tiket .detail-pesanan .body-pesanan{
+    margin-top: 30px;
+    padding: 0 10px;
+}
+.complet{
+    border: 1px solid #ddd;
+    background-color: #FFF700;
+    border-radius: 20px;
+}
+.complet h2{
+    padding: 10px;
+}
+.complet ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.detail-kamar{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.detail-kamar .box-info{
+    width: 600px;
+    background-color: #fff;
+    height: 120vh;
+}
+.detail-kamar .image{
+    background-color: 
+    rgb(245, 246, 250);;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.detail-kamar .image #featured{
+    max-width: 650px;
+    max-height: 375px;
+    margin-top: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.detail-kamar .image .thumbnail {
+    object-fit: cover;
+    max-width: 200px;
+    max-height: 110px;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.4;
+    margin: 5px;
+}
+.detail-kamar .image #slider-wraper{
+    max-width: 780px;
+    display: flex;
+    min-height: 100px;
+    margin: 100px auto;
+    align-items: center;
+}
+.detail-kamar .image #slider-wraper #slider{
+    width: 700px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+.detail-kamar .image #slider-wraper .arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.detail-kamar .image #slider-wraper .arrow:hover{
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+}
+.detail-kamar .image .thumbnail:hover {
+    opacity: 1;
+}
+
+.detail-kamar .image .aktif{
+    opacity: 1;
+    border: 4px solid #047bca;
+    border-radius: 10px;
+}
+.detail-kamar .box-info h1{
+    padding: 20px;
+}
+.detail-kamar .box-info .komen{
+    padding: 10px 30px 10px 40px;
+    font-size: 20px;
+    background-color: #FFF700;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.detail-kamar .box-info .header-info{
+    display: flex;
+    flex-wrap:  wrap;
+    border-bottom: 1px solid #ddd;
+    margin: 0 20px;
+}
+.detail-kamar .box-info .header-info .tamu{
+    margin: 10px 70px 0 0;
+}
+.detail-kamar .box-info .header-info .tamu p{
+   font-size: 18px;
+   font-weight: bold; 
+}
+.detail-kamar .box-info .header-info .tamu p i{
+    padding-right: 10px;
+    color: #333;
+}
+.detail-kamar .box-info .header-info .tamu span{
+    font-size: 18px;
+    color: #666;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.detail-kamar .box-info .fasilitas-info{
+    margin: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.detail-kamar .box-info .fasilitas-info h3{
+    font-size: 20px;
+    padding: 15px 0;
+}
+.detail-kamar .box-info .fasilitas-info p{
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.tabel-booking{
+    border-collapse: collapse;
+    background-color: #fff;
+
+}
+.tabel-booking thead tr {
+    background-color: #111;
+    color: #fff;
+    
+}
+.tabel-booking thead tr th{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.tabel-booking tbody tr td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    background-color: #999;
+}
+
+.box{
+
+    width: 400px;
+    margin: 100px auto;
+    background-color: #ddd;
+    
+}
+.box-header{
+    border-bottom: 2px solid #999;
+    padding: 20px;
+    color: #f44;
+    font-size: 30px;
+    text-align: center;
+}
+.box-body{
+
+    padding: 20px;
+    line-height: 27px;    
+}
+.input-control{
+    width: 294px;
+    height: 21px;
+    padding: 10px;
+    border: none;
+    background: none;
+}
+
+span{
+    font-size: 20px;
+    padding: 10px;
+}
+.form-group{
+    border: 1px solid #888;
+
+}
+.box-body p{
+    padding-bottom: 20px;
+}
+.remember{
+    margin-top: 30px;
+}
+.ingat{
+    cursor: pointer;
+}
+
+.btn{
+    width: 100%;
+    padding: 9px;
+    border: none;
+    color: #fff;
+    background-color: #888;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 7px;
+    transition: .7s;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: #f44;
+    color: #111;
+    
+}
+.box-footer{
+    padding: 20px;
+    font-size: 15px;
+    color: #444;
+}
+.box-footer p{
+    color: #111;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+a:hover{
+    color: #f44;
+    transition: .6s;
+}
